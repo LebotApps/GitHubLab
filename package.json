@@ -1,0 +1,16 @@
+{
+  "name": "gitpub",
+  "version": "1.0.0",
+  "description": "Gitpub Lab",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tori Hamm",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0"
+  }
+}

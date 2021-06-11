@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <%- include(`./partials/head.ejs`);%>
+    
+    <title>Gitpub App</title>
+
+<body class="body">
+    <h1>Drinks Index Page</h1>
+    <ul>
+       
+        <% for(let i = 0; i < allDrinks.length; i++) { %>
+       
+            <li>
+                <a href='/drinks:/<%=i%>'>
+                    <%=allDrinks[i].name %></a>
+                  
+            </li>
+        <% } %>
+    </ul>
+    <a href="/drinks/new">Create New Drink</a>
+</body>
+</html>
+
