@@ -37,7 +37,7 @@ app.get("/drinks/new", (req, res) => {
 
    // NEW SHOW ROUTE 
    
-  app.get('/drinks/:indexOfDrinksArray', (req, res)=>{
+  app.get('/drinks:indexOfDrinksArray', (req, res)=>{
     res.render('show.ejs', {
       drink: drinks[req.params.indexOfDrinksArray]
     });

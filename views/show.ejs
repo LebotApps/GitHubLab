@@ -3,10 +3,11 @@
 
   <%- include(`./partials/head.ejs`);%>
 
-<body style="background-color: ;">
+  <a href='/drinks/'>Back to Index</a>
+
   <h1>Drink Show Page</h1>
   <p>Drink: <%= drink.name %> </p>
-  <p>Price: <%= drink.price %> </p>
+  <p>Price: $<%= drink.price %>.00 </p>
   <img src=<%= drink.image %> /> 
   
     
