@@ -39,7 +39,7 @@ app.get("/drinks/new", (req, res) => {
    
   app.get('/drinks:indexOfDrinksArray', (req, res)=>{
     res.render('show.ejs', {
-      drink: drinks[req.params.indexOfDrinksArray]
+      drinks: drinks[req.params.indexOfDrinksArray]
     });
   });
 

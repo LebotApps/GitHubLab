@@ -43,9 +43,7 @@ const drinks = [
     }
   ]
 
-  let capitalDrinks = function capitalizeFirstLetter(drinks) {
-    return string.charAt(0).toUpperCase() + drinks.slice(1);
-  }
+  
 
   module.exports = drinks;
-  // module.exports = capitalDrinks;
+  
